@@ -50,7 +50,7 @@ export const HomePage: React.FC = () => {
   }, [dispatch, currentPage, selectedType, search]);
 
   const handlePageChange = useCallback((page: number) => {
-    console.log("🚀 ~ handlePageChange ~ page:", page)
+
     dispatch(setPage(page));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [dispatch]);

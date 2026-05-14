@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
 import { Search } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 import { useDebounce } from '../../hooks/useDebounce';
 
 interface PokemonSearchProps {
